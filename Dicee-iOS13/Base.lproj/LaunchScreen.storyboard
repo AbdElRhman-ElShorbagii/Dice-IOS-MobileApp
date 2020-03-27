@@ -15,23 +15,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="hDV-2r-SpX">
-                                <rect key="frame" x="-30" y="0.0" width="474" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="IO0-yq-ZbA">
+                                <rect key="frame" x="-36" y="0.0" width="485" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shorbagii" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-Y3-4nq">
-                                <rect key="frame" x="114" y="391" width="186" height="115"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shorbagii" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-Y3-4nq">
+                                <rect key="frame" x="114" y="390.66666666666669" width="186" height="115"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make it simple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lE7-TD-him">
+                                <rect key="frame" x="152" y="512.66666666666663" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="QG6-2s-aIE"/>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" constant="30" id="Qkd-TS-52T"/>
-                            <constraint firstItem="hDV-2r-SpX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-30" id="goO-U5-6AD"/>
-                            <constraint firstAttribute="bottom" secondItem="hDV-2r-SpX" secondAttribute="bottom" id="pLe-ns-Vsl"/>
+                            <constraint firstItem="lE7-TD-him" firstAttribute="top" secondItem="dhK-Y3-4nq" secondAttribute="bottom" constant="7.3300000000000001" id="8ba-9S-kIO"/>
+                            <constraint firstAttribute="bottom" secondItem="IO0-yq-ZbA" secondAttribute="bottom" id="AJN-g2-mE3"/>
+                            <constraint firstItem="dhK-Y3-4nq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Esv-41-SGu"/>
+                            <constraint firstItem="IO0-yq-ZbA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-36" id="LDA-0f-V7e"/>
+                            <constraint firstAttribute="trailing" secondItem="IO0-yq-ZbA" secondAttribute="trailing" constant="-35" id="Wlg-wG-8h9"/>
+                            <constraint firstItem="dhK-Y3-4nq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Zpl-d6-k5Z"/>
+                            <constraint firstItem="lE7-TD-him" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aLT-Sx-Mu1"/>
+                            <constraint firstItem="IO0-yq-ZbA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="xij-Nj-rYb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
